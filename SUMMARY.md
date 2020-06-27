@@ -1,6 +1,6 @@
 # Summary 
 
-## go-scdo
+## [go-scdo](go-scdo/intro.md)
 
 * [run](go-scdo/run.md)
 * [api](go-scdo/api.md)
