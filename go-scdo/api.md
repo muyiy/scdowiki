@@ -44,7 +44,7 @@ Default port:
 
 | Command                 |   Full   | Light |  public  | private |
 | ----------------------- |:--------:|:-----:|:--------:|:-------:|
-| [NodeInfo](api/monitor/#nodeinfo)   | &#x2713; |       | &#x2713; |         |
+| [NodeInfo](api/monitor.md#nodeinfo)   | &#x2713; |       | &#x2713; |         |
 | [NodeStats](#nodestats) | &#x2713; |       | &#x2713; |         |
 
 
