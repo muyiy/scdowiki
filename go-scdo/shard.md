@@ -21,6 +21,15 @@ matches the following addresses in each shard:
 4Sa371c1ae41519e509c460959f52bb1266b1ad1d1
 ```
 
+Generate a key pair of shard 1. Learn how to compile or get the binaries in the [Get started tutorial](get.md).
+
+```
+$ ./client key --shard 1
+public key:  1Sfe11f81e3da032dd3d0728795d90620ec161ecf1
+private key: 0x8b73d1aecaba56557d4f235fe99df3b2b689bb3346b87892fc631d57cabef75f 
+```
+
+
 # Transaction
 
 Two types of transaction exists on SCDO: **same-shard transaction** or **cross-shard transaction**. Same-shard means the transaction's receiver and sender are in the same shard, and cross shard means they're in different shards. The miner's address must be of the same shard as that of the chain, as mentioned, because miner reward is delivered in the form of a same-shard transaction from the shard's void address to the miner. 

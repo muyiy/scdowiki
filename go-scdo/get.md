@@ -1,6 +1,20 @@
 # Introduction
 
-SCDO is an open source blockchain project with its core hosted on [github.com/scdoproject/go-scdo](https://github.com/scdoproject/go-scdo). Compiling go-scdo will produce two main terminal executables, `node` and `client`, which are also available in [github releases](https://github.com/scdoproject/go-scdo/releases). This tutoral will walk through the compiling instructions of go-scdo. The following tutorials in SCDO's wiki "GO-SCDO" section will introduce the usage of these executables while going through different aspects of the SCDO architecture.
+SCDO is an open source blockchain project with its core hosted on [github.com/scdoproject/go-scdo](https://github.com/scdoproject/go-scdo). Compiling go-scdo will produce two main terminal executables, `node` and `client`, which are also available in [github releases](https://github.com/scdoproject/go-scdo/releases). 
+
+- [get](#compiling)
+    - Compile `node` and `client`.
+    - Environment setup.
+- [shard](shard.md)
+    - SCDO sharding protocol.
+    - Generate keys with `client`.
+- [run](run.md): 
+    - How to run a miner with `node`.
+    - Making a keyfile/keystore with `client`.
+- [api](api.md): 
+    - How to send transactions with `client`.
+    - JSON-RPC references.
+
 
 # Compiling
 
@@ -37,7 +51,12 @@ Binaries can be found in go-scdo's "build" directory.
 
 ```
 cd go-scdo/build
+
+# node version
 ./node -v
+
+# node and client help command
+./node -h
 ./client -h
 ```
 

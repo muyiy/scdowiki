@@ -16,6 +16,7 @@
 
 ## scdo.js
 
+* [get](scdo.js/get.md)
 * [rpc](scdo.js/rpc.md)
 * [key](scdo.js/key.md)
 * [txn](scdo.js/txn.md)
